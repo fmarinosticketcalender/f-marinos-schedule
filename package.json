@@ -1,7 +1,6 @@
 {
   "name": "f-marinos-schedule",
   "version": "1.0.0",
-  "main": "puppeteer_scraper.js",
   "scripts": {
     "scrape": "node puppeteer_scraper.js"
   },
