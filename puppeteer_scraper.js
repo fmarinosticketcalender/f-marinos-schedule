@@ -2,12 +2,16 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']  // ここがポイント
+  const browser = await puppeteer.launch({
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
 
   const page = await browser.newPage();
-  await page.goto('https://www.f-marinos.com/ticket/schedule', { waitUntil: 'networkidle0' });
+  await page.goto('https://www.f-marinos.com/ticket/schedule', {
+    waitUntil: 'networkidle2',
+    timeout: 60000  // ← タイムアウト延長
+  });
 
   const data = await page.evaluate(() => {
     const rows = Array.from(document.querySelectorAll('table tbody tr'));
