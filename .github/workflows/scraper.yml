@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -23,11 +24,10 @@ jobs:
       - name: Run scraper
         run: npm run scrape
 
-      - name: Commit and push
+      - name: Commit and push updated schedule
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add schedule.json
-          git commit -m "⬆️ Update schedule.json"
+          git commit -m "⬆️ update schedule.json" || echo "No changes to commit"
           git push
-        continue-on-error: true
