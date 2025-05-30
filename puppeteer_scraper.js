@@ -1,4 +1,3 @@
-// puppeteer_scraper.js
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
@@ -18,7 +17,7 @@ const fs = require('fs');
         ichiji: cells[3]?.innerText.trim(),
         niji: cells[4]?.innerText.trim(),
         sanji: cells[5]?.innerText.trim(),
-        ippan: cells[6]?.innerText.trim(),
+        ippan: cells[6]?.innerText.trim()
       };
     });
   });
