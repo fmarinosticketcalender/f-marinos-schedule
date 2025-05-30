@@ -1,0 +1,33 @@
+name: Scrape Schedule
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 毎日06:00 JST
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add schedule.json
+          git commit -m "⬆️ Update schedule.json"
+          git push
+        continue-on-error: true
