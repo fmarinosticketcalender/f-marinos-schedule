@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # 毎日06:00 JST
   workflow_dispatch:
 
+permissions:
+  contents: write  # ← 👈 これが必要！
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
