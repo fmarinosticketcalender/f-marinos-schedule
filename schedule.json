@@ -2,31 +2,45 @@
   {
     "matchDate": "試合日時",
     "round": "対戦相手\n[スタジアム]",
-    "opponent": "",
-    "ichiji": "チケット発売日",
-    "niji": "チケット\n販売概要"
+    "personalSeasonTicket": "",
+    "corporateSeasonTicket": "チケット発売日",
+    "ichiji": "チケット\n販売概要",
+    "niji": "",
+    "sanji": "",
+    "ippan": "",
+    "ticketOverview": ""
   },
   {
     "matchDate": "一次優先販売",
     "round": "二次優先販売",
-    "opponent": "三次優先販売",
-    "ichiji": "一般販売"
+    "personalSeasonTicket": "三次優先販売",
+    "corporateSeasonTicket": "一般販売",
+    "ichiji": "",
+    "niji": "",
+    "sanji": "",
+    "ippan": "",
+    "ticketOverview": ""
   },
   {
     "matchDate": "個人\nシーズン\nチケット\n対象",
     "round": "法人\nシーズン\nチケット\n対象",
-    "opponent": "・シーズンチケット\n購入者\n・トリメン\nプレミアム会員",
-    "ichiji": "トリメン\nゴールド会員",
-    "niji": "トリメン\nレギュラー会員",
-    "sanji": "どなたでも\n購入可"
+    "personalSeasonTicket": "・シーズンチケット\n購入者\n・トリメン\nプレミアム会員",
+    "corporateSeasonTicket": "トリメン\nゴールド会員",
+    "ichiji": "トリメン\nレギュラー会員",
+    "niji": "どなたでも\n購入可",
+    "sanji": "",
+    "ippan": "",
+    "ticketOverview": ""
   },
   {
     "matchDate": "明治安田J1\n第1節\n8/7(金)",
     "round": "鹿島アントラーズ\n[MUFGスタジアム\n（国立競技場）]\nK.O. 19:30",
-    "opponent": "×",
-    "ichiji": "○",
-    "niji": "7/4(土)10:00\n～\n7/5(日)23:59",
-    "sanji": "7/4(土)18:00\n～\n7/5(日)23:59",
-    "ippan": "7/5(日)10:00\n～\n7/5(日)23:59"
+    "personalSeasonTicket": "×",
+    "corporateSeasonTicket": "○",
+    "ichiji": "7/4(土)10:00\n～\n7/5(日)23:59",
+    "niji": "7/4(土)18:00\n～\n7/5(日)23:59",
+    "sanji": "7/5(日)10:00\n～\n7/5(日)23:59",
+    "ippan": "7/6(月)\n10:00～",
+    "ticketOverview": ""
   }
 ]
