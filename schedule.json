@@ -34,13 +34,35 @@
   },
   {
     "matchDate": "明治安田J1\n第1節\n8/7(金)",
-    "round": "鹿島アントラーズ\n[MUFGスタジアム\n（国立競技場）]\nK.O. 19:30",
+    "round": "鹿島アントラーズ\n[MUFGスタジアム\n（国立競技場）]\nK.O. 19:25",
     "personalSeasonTicket": "×",
     "corporateSeasonTicket": "○",
     "ichiji": "7/4(土)10:00\n～\n7/5(日)23:59",
     "niji": "7/4(土)18:00\n～\n7/5(日)23:59",
     "sanji": "7/5(日)10:00\n～\n7/5(日)23:59",
     "ippan": "7/6(月)\n10:00～",
+    "ticketOverview": "詳細は\nこちら"
+  },
+  {
+    "matchDate": "明治安田J1\n第3節\n8/22(土)",
+    "round": "ヴィッセル神戸\n[日産スタジアム]\nK.O. 19:30",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "7/11(土)12:00\n(駐車券18:00)\n～\n7/14(火)23:59",
+    "niji": "7/12(日)12:00\n～\n7/14(火)23:59",
+    "sanji": "7/13(月)12:00\n～\n7/14(火)23:59",
+    "ippan": "7/15(水)\n12:00～",
+    "ticketOverview": ""
+  },
+  {
+    "matchDate": "明治安田J1\n第5節\n9/2(水)",
+    "round": "京都サンガF.C.\n[日産スタジアム]\nK.O. 19:00",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "7/25(土)12:00\n(駐車券18:00)\n～\n7/28(火)23:59",
+    "niji": "7/26(日)12:00\n～\n7/28(火)23:59",
+    "sanji": "7/27(月)12:00\n～\n7/28(火)23:59",
+    "ippan": "7/29(水)\n12:00～",
     "ticketOverview": ""
   }
 ]
