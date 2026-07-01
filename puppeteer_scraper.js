@@ -29,7 +29,7 @@ const fs = require('fs');
         // 対戦相手・スタジアム・K.O.時間
         round: cells[1] || '',
 
-        // 新しく追加された列
+        // 追加された2列
         personalSeasonTicket: cells[2] || '',
         corporateSeasonTicket: cells[3] || '',
 
