@@ -75,5 +75,60 @@
     "sanji": "8/3(月)12:00\n～\n8/4(火)23:59",
     "ippan": "8/5(水)\n12:00～",
     "ticketOverview": "詳細は\nこちら"
+  },
+  {
+    "matchDate": "明治安田J1\n第11節\n10/21(水)",
+    "round": "東京ヴェルディ\n[MUFGスタジアム\n（国立競技場）]\nK.O. 19:00",
+    "personalSeasonTicket": "×",
+    "corporateSeasonTicket": "○",
+    "ichiji": "9/5(土)12:00\n(駐車券18:00)\n～\n9/8(火)23:59",
+    "niji": "9/6(日)12:00\n～\n9/8(火)23:59",
+    "sanji": "9/7(月)12:00\n～\n9/8(火)23:59",
+    "ippan": "9/9(水)\n12:00～",
+    "ticketOverview": ""
+  },
+  {
+    "matchDate": "明治安田J1\n第13節\n11/1(日)",
+    "round": "川崎フロンターレ\n[日産スタジアム]\nK.O. 13:00",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "9/13(日)12:00\n(駐車券18:00)\n～\n9/16(水)23:59",
+    "niji": "9/14(月)12:00\n～\n9/16(水)23:59",
+    "sanji": "9/15(火)12:00\n～\n9/16(水)23:59",
+    "ippan": "9/17(木)\n12:00～",
+    "ticketOverview": ""
+  },
+  {
+    "matchDate": "明治安田J1\n第14節\n11/7(土)",
+    "round": "ファジアーノ岡山\n[日産スタジアム]\nK.O. 14:00",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "9/20(日)12:00\n(駐車券18:00)\n～\n9/23(水)23:59",
+    "niji": "9/21(月)12:00\n～\n9/23(水)23:59",
+    "sanji": "9/22(火)12:00\n～\n9/23(水)23:59",
+    "ippan": "9/24(木)\n12:00～",
+    "ticketOverview": ""
+  },
+  {
+    "matchDate": "明治安田J1\n第17節\n11/29(日)",
+    "round": "FC東京\n[日産スタジアム]\nK.O. 14:00",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "10/11(日)12:00\n(駐車券18:00)\n～\n10/14(水)23:59",
+    "niji": "10/12(月)12:00\n～\n10/14(水)23:59",
+    "sanji": "10/13(火)12:00\n～\n10/14(水)23:59",
+    "ippan": "10/15(木)\n12:00～",
+    "ticketOverview": ""
+  },
+  {
+    "matchDate": "明治安田J1\n第19節\n12/13(日)",
+    "round": "V・ファーレン長崎\n[日産スタジアム]\nK.O. 13:00",
+    "personalSeasonTicket": "○",
+    "corporateSeasonTicket": "○",
+    "ichiji": "10/18(日)12:00\n(駐車券18:00)\n～\n10/21(水)23:59",
+    "niji": "10/19(月)12:00\n～\n10/21(水)23:59",
+    "sanji": "10/20(火)12:00\n～\n10/21(水)23:59",
+    "ippan": "10/22(木)\n12:00～",
+    "ticketOverview": ""
   }
 ]
